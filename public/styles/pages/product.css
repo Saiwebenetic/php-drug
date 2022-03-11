@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mukta+Vaani:wght@200;300;400;500;600;700;800&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+.page_content {
+  /****************************************Product highlight*******************************************/
+  /*********************top search for mobile view************************/
+  /*******************first step setion**************************/
+  /*************************banner start here************************/
+  /******************** accordian start here**************/
+  /***********************mobile view step************************/
+  /*****************supplement carousel********************/
+  /*****************carousel item card ********************/
+  /*****************vitamins carousel********************/
+  /*****************diabetes carousel********************/
+}
+.page_content :focus {
+  outline: none;
+}
+.page_content .accordion {
+  display: none;
+}
+.page_content .accordion-button {
+  background-color: #e5eaed;
+  border: 1px solid #015cbf26;
+  border: 5px;
+  border-radius: none !important;
+  padding: 0.5rem 1rem !important;
+}
+.page_content .accordion-button::after {
+  background-image: url(https://i.ibb.co/dcGCsXK/plus.png) !important;
+}
+.page_content .accordion-button:not(.collapsed)::after {
+  background-image: url(https://i.ibb.co/wK6JdVB/minus.png) !important;
+}
+.page_content .accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: black;
+  box-shadow: #015cbf24 0px 7px 29px 0px;
+  border: 1px solid #015cbf26;
+  border-radius: none !important;
+}
+.page_content .accordion-item:last-of-type {
+  border: none;
+}
+.page_content .accordion-body {
+  padding: 10px 10px 10px 10px;
+  list-style: none;
+}
+.page_content .accordion-button:focus {
+  outline: 0;
+  box-shadow: #015cbf24 0px 7px 29px 0px;
+  border: 1px solid #015cbf26;
+}
+.page_content .accordion-item:first-of-type .accordion-button {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+.page_content .accordion-item:last-of-type .accordion-button.collapsed {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+}
+.page_content .top-search .search_input3 input {
+  padding: 9px 0px 9px 10px;
+  border-radius: 7px;
+  border-color: #fff;
+  width: 100%;
+  height: 38px;
+  background-color: #e5eaed;
+  border-style: none;
+  margin: 0px 0px 0px 0px;
+  font-size: 14px;
+}
+.page_content .top-search .searchbtn3 {
+  background: #ffeb3b !important;
+  border: 1px solid #ffeb3b !important;
+  border-radius: 7px;
+  padding: 0px 10px 0px 10px;
+  height: 38px;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.page_content .custom_box {
+  background-color: #ecf5ff;
+  width: 331px;
+  height: 138px;
+  box-shadow: #015cbf24 3px 1px 12px 1px;
+  border: 1px solid #015cbf26;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.page_content .custom_box img {
+  width: 115px;
+  padding-top: 10px;
+}
+.page_content .custom_box .fa-circle {
+  font-size: 6px;
+  color: #bfcbd0;
+  position: relative;
+  left: 165px;
+  top: -46px;
+}
+.page_content .custom_box .fa-angle-right {
+  font-size: 18px;
+  color: #bfcbd0;
+  position: relative;
+  left: 163px;
+  top: -42px;
+  font-weight: bold;
+}
+.page_content .custom_content_text h4 {
+  font-size: 20px;
+  font-weight: 900;
+  padding-top: 20px;
+  font-style: italic;
+  font-family: "Palanquin", sans-serif;
+}
+.page_content .custom_content_text p {
+  font-size: 16px;
+  line-height: 1;
+  color: #6d7d8e;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+}
+.page_content .custom_content_text .arrow_div {
+  margin-left: 10px;
+  font-size: 20px;
+}
+.page_content .banner h2 {
+  font-family: "Palanquin", sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+.page_content .banner p {
+  text-align: center;
+  padding: 0px 250px;
+  font-family: "Palanquin", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 20px;
+}
+.page_content .banner #carousel .owl-nav button.owl-prev {
+  position: absolute;
+  left: 525px;
+  top: 230px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .banner #carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 525px;
+  top: 230px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .banner #carousel .owl-nav button.owl-prev span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .banner #carousel .owl-nav button.owl-next span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .accord .accordianns_content .content_heading {
+  font-size: 19px;
+  font-weight: 500;
+  border-left: 7px solid #cae6f2;
+  padding-left: 9px;
+  margin-bottom: 17px;
+  margin-left: -66px;
+  line-height: 2.2;
+  font-family: "Palanquin", sans-serif;
+}
+.page_content .accord .accordianns_content .accordion_container {
+  border-left: 2px solid #022f46;
+  margin-left: -23px;
+  padding-left: 10px;
+}
+.page_content .accord .accordianns_content .accordion_head {
+  cursor: pointer;
+  font-family: "Palanquin", sans-serif;
+  font-size: 18px;
+  margin: 0px 0px 20px 17px;
+  padding: 0px 0px 5px 0px;
+  font-weight: bold;
+}
+.page_content .accord .accordianns_content .plusminus {
+  position: absolute;
+  left: 102px;
+  font-size: 24px;
+  background: #fcd400;
+  width: 30px;
+  padding: 3px;
+  height: 30px;
+  border-radius: 5px;
+  line-height: 23px;
+  text-align: center;
+  font-style: initial;
+}
+.page_content .accord .accordianns_content .accordion_body {
+  background: lightgray;
+}
+.page_content .accord .accordianns_content .accordion_body p {
+  padding: 18px 5px;
+  margin: 0px;
+}
+.page_content .accord .accordianns_content .accordion_body .list-group-item {
+  padding: 0.5rem 0.5rem;
+  border: 0px solid rgba(0, 0, 0, 0.125) !important;
+}
+.page_content .accord .accordianns_content .accordion_body .list-group-item.active {
+  z-index: 2;
+  font-weight: 600;
+  color: #fc9700;
+  background-color: white !important;
+}
+.page_content .accord .input-group .search_input2 input {
+  padding: 6px 0px 6px 15px;
+  border-radius: 7px;
+  border-color: #fff;
+  width: 200px;
+  height: 35px;
+  border-style: none;
+  background-color: #e5eaed;
+  border: 1px solid #015cbf26;
+  margin-left: -22px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.page_content .accord .input-group .searchbtn2 {
+  background: #ffeb3b !important;
+  border: 1px solid #ffeb3b !important;
+  border-radius: 7px;
+  padding: 5px 15px 5px 15px;
+  margin: -36px 0px 0px 130px !important;
+}
+.page_content .mobile-view-step #carousel-step .owl-nav button.owl-prev {
+  position: absolute;
+  left: 28px;
+  top: 190px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .mobile-view-step #carousel-step .owl-nav button.owl-next {
+  position: absolute;
+  left: 70px;
+  top: 190px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .mobile-view-step #carousel-step .owl-nav button.owl-prev span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .mobile-view-step #carousel-step .owl-nav button.owl-next span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .supplement {
+  margin-top: 64px;
+}
+.page_content .supplement h5 {
+  font-family: "Mukta Vaani", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: -12px;
+}
+.page_content .supplement #supplement-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  right: 120px;
+  top: -32px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .supplement #supplement-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 84px;
+  top: -32px;
+  margin-bottom: 10px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .supplement #supplement-carousel .owl-nav button.owl-prev span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .supplement #supplement-carousel .owl-nav button.owl-next span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .product-card-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: #015cbf24 3px 1px 12px 1px;
+  border: 1px solid #015cbf26;
+  border-radius: 5px;
+  padding: 23px 0;
+  margin: 26px 0 !important;
+  height: auto;
+  width: 80%;
+}
+.page_content .product-card-column img {
+  height: auto;
+  width: 63px;
+  object-fit: cover;
+}
+.page_content .product-card-column button {
+  padding: 5px 20px;
+  font-size: 12px;
+  border-radius: 13px;
+  background-color: #fdd501;
+  border: none;
+  font-weight: 600;
+  margin: 0;
+}
+.page_content .product-card-column h5 {
+  color: #1c2734;
+  padding: 0px 50px;
+  margin-bottom: 0px;
+}
+.page_content .product-card-column .genre {
+  color: #747474;
+  font-size: 17px;
+  margin: bottom 5px;
+}
+.page_content .product-card-column p {
+  color: #fe981a;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.page_content .product-card-column .rupees {
+  text-decoration: line-through;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.page_content .vitamins .P_head {
+  margin-bottom: -12px;
+}
+.page_content .vitamins #vitamins-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  right: 120px;
+  top: -32px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .vitamins #vitamins-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 84px;
+  top: -32px;
+  margin-bottom: 10px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .vitamins #vitamins-carousel .owl-nav button.owl-prev span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .vitamins #vitamins-carousel .owl-nav button.owl-next span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .diabetes .P_head {
+  margin-bottom: -10px;
+}
+.page_content .diabetes #diabetes-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  right: 120px;
+  top: -32px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .diabetes #diabetes-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 84px;
+  top: -32px;
+  margin-bottom: 10px;
+  border-radius: 33px;
+  width: 30px;
+  height: 30px;
+  background: #f6f6f6 !important;
+  border: 1px solid #dcdddd;
+}
+.page_content .diabetes #diabetes-carousel .owl-nav button.owl-prev span {
+  position: relative;
+  color: #21252982;
+}
+.page_content .diabetes #diabetes-carousel .owl-nav button.owl-next span {
+  position: relative;
+  color: #21252982;
+}
+
+/**********************************MEDIA FOR MOBILE VIEW*****************/
+@media (max-width: 450px) {
+  .page_content .banner p {
+    padding: 0px;
+  }
+
+  #carousel .owl-nav button.owl-prev {
+    left: 10px !important;
+  }
+  #carousel .owl-nav button.owl-next {
+    left: 50px !important;
+  }
+
+  .custom_box {
+    margin: 0px 32px 10px 20px;
+  }
+  .custom_box .custom_content_text .arrow_div {
+    display: none;
+  }
+
+  .accordianns_content {
+    display: none;
+  }
+
+  .mobile-view-step {
+    display: block !important;
+    margin-top: 75px;
+  }
+
+  .page_content .supplement {
+    margin-top: 100px;
+  }
+
+  .desktop-view-step {
+    display: none;
+  }
+
+  .top-search {
+    display: block !important;
+  }
+
+  .left-search {
+    display: none;
+  }
+
+  .banner h2 {
+    font-size: 19px;
+  }
+  .banner p {
+    font-size: 15px !important;
+  }
+
+  .accordion {
+    display: block !important;
+  }
+
+  .product-card-column {
+    width: auto !important;
+  }
+
+  #diabetes-carousel .owl-nav button.owl-prev {
+    right: 45px !important;
+  }
+  #diabetes-carousel .owl-nav button.owl-next {
+    right: 11px !important;
+  }
+
+  #vitamins-carousel .owl-nav button.owl-prev {
+    right: 45px !important;
+  }
+  #vitamins-carousel .owl-nav button.owl-next {
+    right: 11px !important;
+  }
+
+  #supplement-carousel .owl-nav button.owl-prev {
+    right: 45px !important;
+  }
+  #supplement-carousel .owl-nav button.owl-next {
+    right: 11px !important;
+  }
+}

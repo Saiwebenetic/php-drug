@@ -1,0 +1,17 @@
+/* Error: Expected digit.
+ *       ,
+ * 18047 |   background-image: url(./assets/images/home/krooked\ lines.svg);
+ *       |                          ^
+ *       '
+ *   sass\styles\pages\short css.css 18047:26  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected digit.\a       \2577 \a 18047 \2502    background-image: url(./assets/images/home/krooked\\ lines.svg);\d\a       \2502                           ^\a       \2575 \a   sass\\styles\\pages\\short css.css 18047:26  root stylesheet";
+}

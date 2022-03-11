@@ -1,0 +1,760 @@
+@import "../../variables/font-family";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+// shoyeb css Category page start
+
+.general-health {
+  background-color: #daeef4;
+  padding: 10px 60px;
+
+  h4 {
+    font-weight: 900;
+    line-height: 35px;
+    padding: 0px;
+    margin: 0px;
+    font-family: $title-font;
+  }
+
+  p {
+    line-height: 18px;
+    font-size: 16px;
+    font-family: "Palanquin", sans-serif;
+    font-weight: 500;
+  }
+}
+
+.side-bar-heading {
+  border-left: 5px solid #cae6f2;
+  padding: 0px 0px 0px 13px;
+  font-family: $para;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.hero {
+  padding: 20px 0;
+  overflow: hidden;
+  margin-bottom: 50px;
+  padding: 30px 60px;
+
+  #hero-card-carousel {
+
+    .owl-nav button.owl-prev,
+    .owl-nav button.owl-next {
+      // font-size: 20px;
+      // background-color: #fff;
+      color: #013f58;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      padding: 0px 3px;
+      border: 2px solid #eee;
+    }
+
+    button.owl-next {
+      position: absolute;
+      top: 190px;
+      right: 79px;
+      background-color: #fff;
+    }
+
+    button.owl-prev {
+      position: absolute;
+      top: 190px;
+      left: -900px;
+      background-color: #fff;
+    }
+
+    .owl-theme .owl-nav {
+      // position: absolute;
+      // top: -50px;
+      // right: 29px;
+    }
+  }
+}
+
+.div {
+  h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $para;
+  }
+}
+
+.div1 {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+
+  img {
+    margin: 0px;
+    padding: 0px;
+    height: 330px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+.card01 {
+  border-radius: 10px;
+  min-height: 573px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  img {
+    border-radius: 10px 10px 0px 0px;
+  }
+}
+
+.div1-content {
+  padding: 25px 30px 25px 30px;
+  margin: 0px;
+
+  h3,
+  p {
+    font-weight: 600;
+    font-family: $para;
+  }
+
+  p {
+    font-family: $para;
+    font-size: 18px;
+    color: #4b505a;
+  }
+}
+
+.cta-card {
+  padding: 20px 20px 20px 25px;
+  border-radius: 10px;
+  margin: 5px 0;
+  position: relative;
+
+  h4 {
+    font-size: 21px;
+    font-weight: 900;
+    font-family: $para;
+    word-break: break-all;
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 29px;
+    margin: 0 auto;
+    // line-height: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  button {
+    padding: 5px 14px;
+    font-size: 13px;
+    border-radius: 5px;
+    background-color: #fdd501;
+    border: none;
+    font-weight: 900;
+    font-family: $title-font;
+    margin: 0;
+  }
+
+  p {
+    padding-right: 64px;
+    line-height: 24px;
+  }
+
+  img {
+    position: absolute;
+    top: 48px;
+    right: 5px;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.contain-card {
+  border: 1px solid #eee;
+  height: 100%;
+  border-radius: 10px;
+
+  box-shadow: #015cbf24 0px 7px 29px 0px;
+}
+
+.card-y {
+  // overflow-y: scroll;
+  // height: 475px;
+  margin-left: 11px;
+}
+
+/* width */
+.card-y::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.card-y::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.card-y::-webkit-scrollbar-thumb {
+  background: #376478;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.card-y::-webkit-scrollbar-thumb:hover {
+  background: #63a5c2;
+}
+
+.cta-card1 {
+  background-color: #fedbaf;
+}
+
+.cta-card2 {
+  background-color: #bfeaf1;
+}
+
+.cta-card3 {
+  background-color: #bfcfd6;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 55px;
+    width: 245px;
+    object-fit: cover;
+    position: absolute;
+    left: 200px;
+  }
+}
+
+.footer {
+  background-color: #013f58;
+  color: #89bbd1;
+  margin-top: 35px;
+
+  .row {
+    justify-content: center;
+    align-items: center;
+  }
+
+  p {
+    padding: 0px 13px;
+  }
+}
+
+.footer-div {
+  border-left: 2px solid #89bbd1;
+  margin: 30px 0px;
+}
+
+.footer-link {
+  li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px 7px;
+  }
+}
+
+.social-footer {
+  margin: 22px 0;
+  padding: 0px 10px;
+
+  li {
+    list-style: none;
+    display: inline;
+    margin: 10px 2px;
+    color: #013f58;
+    background-color: #89bbd1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+  li:nth-child(1) {
+    padding: 6px 10px;
+  }
+
+  li:nth-child(2) {
+    padding: 6px 7px;
+  }
+
+  li:nth-child(3) {
+    padding: 6px 7px;
+  }
+
+  li:nth-child(4) {
+    padding: 6px 7px;
+  }
+
+  li:nth-child(5) {
+    padding: 6px 7px;
+  }
+
+  p {
+    padding: 0px 15px;
+  }
+}
+
+#card-carousel {
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.carousel-contain {
+  padding: 30px 10px 20px 10px;
+
+  .owl-theme .owl-nav {
+    position: absolute;
+    top: -49px;
+    right: 5px;
+  }
+
+  .owl-nav button.owl-prev,
+  .owl-nav button.owl-next {
+    // font-size: 20px;
+    // background-color: #fff;
+    color: #013f58;
+
+    height: 29px;
+    line-height: 0px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 0px 3px;
+    border: 2px solid #eee;
+  }
+
+  .owl-theme .owl-nav [class*="owl-"]:hover {
+    background-color: #013f58;
+  }
+}
+
+// Media Query for  Mobile
+@media only screen and (max-width: 400px) {
+
+  .general-health,
+  .hero {
+    padding: 10px 15px;
+  }
+
+  .contain-card {
+    height: 690px;
+  }
+
+  .side-bar-heading {
+    margin-top: 40px;
+    padding: 0px 0px 0px 13px;
+  }
+
+  .cta-card h4 {
+    line-height: 24px;
+  }
+
+  .card-y {
+    overflow-y: scroll;
+    height: 350px;
+    margin: 0px !important;
+    padding: 0px 20px 0px 0px;
+  }
+
+  .hero {
+    margin-bottom: 10px;
+  }
+
+  .disp {
+    display: none !important;
+  }
+
+  .footer-div {
+    border: none;
+  }
+
+  .footer-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    li {}
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+
+    img {
+      position: unset;
+    }
+  }
+
+  .social-footer {
+    padding: 0px;
+    margin: 25px 45px;
+  }
+}
+
+// Media Query for  Tablet
+@media only screen and (min-width: 400px) and (max-width: 1200px) {
+  .hero {
+    padding: 10px 50px;
+  }
+
+  .cta-card {
+    width: 306px;
+    margin-right: 16px;
+
+    h4 {
+      line-height: 19px;
+    }
+
+    img {
+      position: absolute;
+      top: 64px;
+      right: 20px;
+      height: 71px;
+      width: 73px;
+    }
+  }
+
+  .side-bar-heading {
+    padding: 38px 0px 0px 13px;
+    border: none;
+  }
+
+  .card-y {
+    height: 535px;
+  }
+
+  .general-health {
+    p {
+      font-size: 17px;
+    }
+  }
+
+  .carousel-contain .cta-card {
+    width: 100%;
+  }
+
+  .footer-logo {
+    img {
+      height: 47px;
+      width: 228px;
+      object-fit: cover;
+      position: unset;
+    }
+  }
+}
+
+// shoyeb css Category page END
+
+// sai's css
+.nav-pills {
+  // width: 956px;
+  margin-left: 50px;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  padding: 16px 20px;
+  border: 1px solid #dedede;
+  transition: 0.3s;
+}
+
+.category-pills-section-blog {
+  padding: 0px 75px;
+
+  .owl-carousel .owl-stage-outer {
+    width: 800px;
+  }
+
+  .owl-theme .owl-nav {
+    right: 28px;
+  }
+}
+
+.cards:hover .sub a {
+  border-radius: 5px;
+  color: #fdd500;
+  text-decoration: underline;
+}
+
+.cards:hover {
+  box-shadow: #2482ff47 1px 1px 40px 2px;
+  border: 1px solid #3e9aff30;
+  border-radius: 5px;
+}
+
+.up {
+  margin-top: 20px;
+  display: flex;
+}
+
+.ldate h5 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  margin-left: -7px;
+  margin-top: 15px;
+  font-weight: revert;
+  font-size: 13px;
+  color: #727678;
+  font-family: $title-font;
+}
+
+.cards::after {
+  content: "";
+  height: 30px;
+  width: 2px;
+  top: 0px;
+  left: 15px;
+  position: absolute;
+  background-color: #50585c;
+}
+
+.img-holder img {
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.c-titile {
+  font-family: $para;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffd214;
+}
+
+.down {
+  margin-top: 10px;
+}
+
+.down .c-para {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  margin: 0px;
+  font-family: $para;
+  color: #121f2c;
+  margin-top: 5px;
+  letter-spacing: 0.3px;
+  word-break: break-all;
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: fit-content;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.sub a {
+  text-decoration: none;
+  font-size: 15px;
+  color: transparent;
+  transition: 0.3s;
+  font-weight: 700;
+}
+
+.sub h6 {
+  font-size: 15px;
+  color: #727678;
+}
+
+.category-pills-section-blog .nav-item {
+  background-color: #bfeaf1;
+  border-radius: 5px;
+  // width: 114px;
+  display: flex;
+  padding: 3px 0;
+  margin-right: 7px;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.category-pills-section-blog .nav-item {
+  background-color: #bfeaf1;
+  border-radius: 5px;
+  // width: 120px;
+  margin-right: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.category-pills-section-blog .nav-item:hover {
+  background-color: #ffd214;
+}
+
+.category-pills-section-blog .nav-link {
+  padding: 4px 8px;
+  color: #265c64;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  background-color: transparent;
+}
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  position: absolute;
+  right: -68px;
+  top: -14px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: initial;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(231, 225, 225);
+  border-radius: 50%;
+  text-align: center;
+}
+
+.category-pills-section-blog .nav-pills .nav-link.active,
+.category-pills-section-blog .nav-pills .show>.nav-link {
+  color: #000;
+  // background-color: #bfeaf1;
+  width: 100%;
+}
+
+.drugbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+
+  button {
+    border-radius: 25px;
+    padding: 5px 40px;
+    font-size: 12px;
+    background-color: #fdd501;
+    border: none;
+    font-weight: 600;
+    font-family: $title-font;
+    margin: 0;
+  }
+}
+
+// Sai's css end
+
+@media screen and (max-width: 480px) {
+  .div1 img {
+    height: 170px;
+  }
+
+  .contain-card {
+    height: 290px;
+
+    .div1-content h3 {
+      word-break: break-all;
+      display: -webkit-box;
+      height: 59px;
+      margin: 0 auto;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .owl-theme .owl-nav {
+      top: -130px;
+    }
+  }
+
+  .cards {
+    margin-bottom: 20px;
+  }
+
+  .smart-card {
+    display: flex;
+    // width: 100%;
+    overflow-x: scroll;
+    flex-wrap: inherit;
+
+    // / width /
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 15px;
+    }
+
+    // / Track /
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+
+    // / Handle /
+    &::-webkit-scrollbar-thumb {
+      background: #376478;
+      border-radius: 10px;
+      width: 150px;
+    }
+
+    // / Handle on hover /
+    &::-webkit-scrollbar-thumb:hover {
+      background: #63a5c2;
+    }
+  }
+
+  #carousel-navpills {
+    width: 260px;
+  }
+
+  .category-pills-section-blog {
+    padding: 0px;
+
+    ul {
+      margin-left: 10px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+      width: unset;
+    }
+
+    .owl-theme .owl-nav {
+      right: -66px;
+      top: -10px;
+    }
+  }
+
+  .hero #hero-card-carousel button.owl-prev {
+    left: -410px;
+  }
+}
+
+.category-pills-section-blog {
+  width: 100%;
+
+  .owl-nav {}
+}
